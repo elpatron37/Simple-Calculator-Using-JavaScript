@@ -1,0 +1,40 @@
+body{
+    background-image: radial-gradient(circle,rgb(75, 22, 69),rgb(42, 12, 38));
+}
+#r1{
+    display: block;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    border-radius: 10%;
+}
+.r{
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+#inp{
+    width: 98%;
+    height:40px;
+    text-align: right;
+    border-radius: 10%;
+    color: white;
+    background-color: rgb(101, 103, 103);
+}
+.btn{
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(101, 103, 103);
+    border-radius: 10%;
+    opacity: 0.7;
+}
+.btn:hover{
+    scale: 1.1;
+}
